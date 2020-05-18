@@ -1,0 +1,12 @@
+
+.boton{
+
+  background: rgb(134, 221, 134);
+  padding: 15px;
+  color: white;
+  border: 3px solid green;
+}
+
+.disable{
+  opacity: 0.3;
+}
