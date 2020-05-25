@@ -1,0 +1,11 @@
+
+
+.ventana{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: green;
+    border-radius: 10px;
+    border: 7px solid yellow;
+}
+

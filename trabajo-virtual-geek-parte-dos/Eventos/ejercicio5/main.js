@@ -1,4 +1,4 @@
-
+'use strict';
 
 function seleccionar(event){
     const selecs = event.currentTarget;

@@ -1,3 +1,4 @@
+'use strict';
 const plusOneButtonElement = document.querySelector('.button__add-one');
 
 function peliculas(event) {
@@ -20,8 +21,20 @@ var lista = document.querySelector(".lista")
   
   </ul>`;
 
+  document.querySelector(".peli1").addEventListener("click",mostrar)
+document.querySelector(".peli2").addEventListener("click",mostrar)
+document.querySelector(".peli3").addEventListener("click",mostrar)
+document.querySelector(".peli4").addEventListener("click",mostrar)
+document.querySelector(".peli5").addEventListener("click",mostrar)
+
+
 }
 
+function mostrar(event){
+  const texto = event.currentTarget;
+  var peli = document.querySelector(".peli1")
+  console.log(peli);
+}
 
 plusOneButtonElement.addEventListener('click', peliculas);
 

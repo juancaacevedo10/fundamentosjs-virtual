@@ -1,0 +1,32 @@
+.orange{
+    background-color: #ff9900;
+}
+
+.yellow{
+    background-color: #ffcc00;
+}
+.contenedor{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+button{
+    background-color: rgb(5, 108, 192);
+    color: white;
+    border: rgb(5, 108, 192);
+    border-radius: 7px  ;
+    width: 70px;
+    height: 30px;
+}
+
+select{
+    width: 50px;
+    height: 30px;
+}
